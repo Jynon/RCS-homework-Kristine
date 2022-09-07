@@ -1,0 +1,84 @@
+a {
+    text-decoration: none;
+}
+body {
+    background-color: rgb(243, 233, 221);
+}
+ul,ol {
+    font-family: 'Cormorant SC';
+    font-size: 60px;
+}
+h4 {
+    font-family: 'Cormorant SC';
+    font-size: 60px;
+    font-weight: 100;
+    text-align: center;
+    text-decoration: underline;
+}
+.header {
+    font-family: 'Cormorant SC';
+    font-size: 60px;
+    padding: 40px;
+    margin-bottom: 3px;
+    background-image: url(https://www.pacegallery.com/media/images/48106_1.width-2000.jpg);
+    background-size: cover;
+}
+.menu--box {
+    text-align: right;
+}
+.btn {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    font-family: 'Cormorant SC';
+    font-size: 30px;
+    border-radius: 6px;
+    border-style: solid;
+    color: black;
+    border-top-color: rgb(243, 233, 221);
+    background-color: rgb(150, 149, 148);
+    transition: background-color 0.30s ease-in-out;
+}
+.btn:hover{
+    background-color: rgb(243, 233, 221);
+    color: rgb(182, 174, 59);
+}
+p {
+    font-family: 'Kanit';
+    font-size: 18px;
+    margin-block-start: 70px;
+    line-height: 1.75;
+    box-sizing: border-box;
+    text-align: center;
+}
+.MainText {
+    text-align: center;
+    max-block-size: 100px;
+}
+footer {
+    background-color: rgb(20, 20, 20);
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    height: 107px;
+}
+.footer {
+    font-family: 'Cormorant SC';
+    color: rgb(243, 233, 221);
+}
+.box {
+    padding: 20px;
+    margin: 50px;
+    max-width: absolute;
+    display: flex;
+    flex-wrap: wrap;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.row {
+    margin-top: 30px;
+}
